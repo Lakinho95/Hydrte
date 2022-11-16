@@ -1,0 +1,121 @@
+.slika {
+    margin-bottom: 0;
+    height: 130vh;
+    background-image: url('pozadina.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.holder {
+    height: 5vh;
+    background-color: white;
+}
+
+.holder1 {
+    height: 60vh;
+}
+
+.slika img {
+    object-fit: cover;
+    width: 100%;
+    height:80vh;
+    z-index: 1;
+}
+
+.okvir {
+    width: 40%;
+    border-radius: 10px;
+    background-color: white;
+    margin: auto;
+    z-index: 200;
+    text-align: center;
+    padding-bottom: 20vh;
+    height: 22vh;
+}
+
+.okvir h2 {
+    padding-top: 2vh;
+    font-family: Questrial, sans-serif;
+    color: gray;
+    font-size: 25px;
+}
+
+.okvir p {
+    padding-bottom: 1vh;
+    margin-top: 0px;
+    color: gray;
+}
+
+.okvir button {
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: white;
+    text-align: center;
+    color: black;
+    letter-spacing: 3px;
+    padding: 5px 15px;
+    font-weight: bolder;
+}
+
+.okvir button:hover {
+    background-color: wheat;
+    cursor: pointer;
+}
+
+.okvir1 {
+    display: none;
+    width: 60%;
+    border-radius: 10px;
+    background-color: white;
+    margin: auto;
+    z-index: 200;
+    text-align: center;
+    padding-bottom: 20vh;
+    height: 28vh;
+}
+
+.okvir1 h2 {
+    padding-top: 2vh;
+    font-family: Questrial, sans-serif;
+    color: gray;
+    font-size: 25px;
+}
+
+.okvir1 p {
+    padding-bottom: 1vh;
+    margin-top: 0px;
+    color: gray;
+}
+
+.okvir1 button {
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: white;
+    text-align: center;
+    color: black;
+    letter-spacing: 3px;
+    padding: 5px 15px;
+    font-weight: bolder;
+}
+
+.okvir1 button:hover {
+    background-color: wheat;
+    cursor: pointer;
+}
+
+@media (max-width: 750px) {
+    .slika {
+        height: 70vh;
+    }
+    .slika img {
+        height: 40vh;
+    }
+    .okvir {
+        display: none;
+    }
+    .okvir1 {
+        display: block;
+        margin-bottom: 2vh;
+    }
+}

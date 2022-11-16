@@ -1,0 +1,172 @@
+.box {
+    font-size: 18px;
+    background-color: gray;
+    display: grid;
+    grid-template-columns: 8fr 5fr 1fr 2fr;
+}
+
+.kec {
+    display: flex;
+    padding: 1vh;
+}
+
+.box p {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-left: 1vw;
+}
+
+
+
+.instagram {
+    height: 20px;
+    width: 20px;
+}
+
+.instagram:hover {
+    cursor: pointer;
+}
+
+.tictoc {
+    height: 20px;
+    width: 20px;
+}
+
+.tictoc:hover {
+    cursor: pointer;
+}
+
+.facebook {
+    height: 15px;
+    width: 15px;
+}
+
+.facebook:hover {
+    cursor: pointer;
+}
+
+.trojka {
+    padding: 1vh;
+    color: white;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.cetvorka {
+    padding: 1vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-right: 10px;
+}
+
+.facebook, .tictoc, .instagram {
+    margin-left: 1vw;
+}
+
+
+@media (max-width: 1350px) {
+    .box {
+        display: grid;
+        grid-template-columns: 9fr 1fr 1fr 2fr;
+    }
+}
+    
+@media (max-width: 1150px) {
+    .box {
+        display: grid;
+        grid-template-columns: 7fr 1fr 1fr 2fr;
+    }
+}
+
+@media (max-width: 950px) {
+    .box {
+        display: grid;
+        grid-template-columns: 6fr 1fr 1fr 2fr;
+    }
+}
+
+@media (max-width: 900px) {
+    .box {
+        display: grid;
+        grid-template-columns: 10fr 1fr 1fr 4fr;
+    }
+
+    .kec {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .trojka {
+        margin-top: 1vh;
+        padding: 15px;
+
+    }
+
+    .cetvorka {
+        margin-top: 1vh;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 800px) {
+    .box {
+        display: grid;
+        grid-template-columns: 10fr 1fr 2fr 5fr;
+    }
+
+    .kec {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .trojka {
+        padding: 15px;
+    }
+
+    .cetvorka {
+        padding: 15px;
+        margin-right: -1vh;
+    }
+}
+
+@media (max-width: 700px) {
+    .box {
+        display: grid;
+        grid-template-columns: 8fr 2fr 1fr 2fr;
+    }
+
+    .cetvorka {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .kec {
+        margin-top: 2vh;
+        padding: 0px;
+        height: 3vh;
+    }
+
+    .kec p {
+        
+        font-size: 10px;
+    }
+
+    .trojka {
+        padding-top: 1vh;
+        font-size: 12px;
+    }
+
+    .instagram {
+        height: 15px;
+        width: 15px;
+    }
+    
+    .tictoc {
+        height: 15px;
+        width: 15px;
+    }
+    .facebook {
+        height: 10px;
+        width: 10px;
+    }
+}

@@ -1,0 +1,88 @@
+.pitanja {
+    padding-top: 5vh;
+    width: 65%;
+    margin: auto;
+    font-family:Questrial, sans-serif;
+}
+
+.pitanja p{
+    text-align: center;
+
+}
+
+.pitanja h3 {
+    margin-top: 0px;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(52, 51, 51);
+}
+
+.pitanja ul {
+    list-style: none;
+}
+
+.upitnik {
+    height: 20px;
+    width: 20px;
+    margin-right: 1vw;
+}
+
+.dole {
+    justify-self: right;
+    margin-top: 2vh;
+    height: 20px;
+    width: 20px;
+}
+
+.gore {
+    justify-self: right;
+    margin-top: 2vh;
+    height: 20px;
+    width: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 9fr 1fr;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    justify-items: start;
+}
+
+
+.grid p {
+    font-size: 20px;
+    justify-self: start;
+}
+
+
+.okvir {
+    padding-top: 2vh;
+}
+
+.grid .odgovor {
+    text-align: justify;
+}
+
+.sakrij {
+    display: none;
+}
+
+.text {
+    font-weight: 600;
+}
+
+.grid:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+@media (max-width: 1100px) {
+    .pitanja h3 {
+        margin-left: 5vw;
+    }
+    .prvo {
+        margin-left: 5vw;
+    }
+
+}   

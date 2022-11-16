@@ -1,0 +1,19 @@
+.pozadina {
+    background-color: black;
+    margin: -3vh;
+    height: 20vh;
+    padding-top: 3vh;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+
+.container h2 {
+    color: white;
+    margin: 0;
+}
+

@@ -1,0 +1,66 @@
+.dosada {
+    background-color: rgb(1, 1, 1);
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    height: 30vh;
+    font-family:Questrial, sans-serif;
+    line-height: 1.6;
+}
+.dosada p {
+    padding-top: 3vh;
+    font-size: 20px;
+}
+
+.dosada h4 {
+    margin-top: -1vh;
+    font-size: 20px;
+}
+
+.dosada h2 {
+    padding-top: 4vh;
+    font-size: 40px;
+}
+
+.dosada button {
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: white;
+    text-align: center;
+    color: black;
+    letter-spacing: 3px;
+    padding: 5px 15px;
+    font-weight: bolder;
+}
+
+.dosada button:hover {
+    background-color: wheat;
+    cursor: pointer;
+}
+
+@media (max-width: 700px) {
+    .dosada h2 {
+        font-size: 25px;
+    }
+
+    .dosada h4 {
+        font-size: 15px;
+        margin-top: 4vh;
+        margin-bottom: 4vh;
+        padding: auto;
+    }
+
+    .skrati {
+        width: 70%;
+        margin:auto;
+    }
+
+    .dosada {
+        background-color: rgb(1, 1, 1);
+        color: white;
+        text-align: center;
+        border-radius: 20px;
+        height: 30vh;
+        font-family:Questrial, sans-serif;
+    }
+}

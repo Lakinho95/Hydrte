@@ -1,0 +1,209 @@
+.okvir {
+    width: 45%;
+    margin: auto;
+    margin-top: 10vh;
+    background-color: gray;
+    border-radius: 8%;
+}
+
+.okvir form {
+    padding-top: 2vh;
+}
+
+.okvir label {
+    margin-left: 2vw;
+    color: white;
+}
+
+.dugme button {
+    justify-self: center;
+    width: 15vw;
+    height: 4vh;
+    margin-left: 15vw;
+    margin-bottom: 2vh;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 22px;
+}
+
+.dugme button:hover {
+    cursor: pointer;
+    background-color: rgb(19, 18, 18);
+}
+
+.okvir input {
+    display: block;
+    margin-bottom: 3vh;
+    width: 90%;
+    margin-left: 2vw;
+    height: 4vh;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: auto;
+    text-indent: 7px;
+    margin-top: 5px;
+}
+
+.inline-display {
+    display: inline;
+}
+
+.okvir input[type="checkbox"] {
+    display: inline;
+}
+
+.okvir fieldset input {
+    display: inline;
+    margin-right: 10px;
+}
+
+
+
+.velicine {
+    background-color: pink;
+    color: black;
+    padding-left: 2vw;
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr 1fr 2fr;
+}
+
+.velicine1 {
+    background-color: black;
+    color: white;
+    padding-left: 2vw;
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr 1fr 2fr;
+}
+
+.plus {
+    background-color: green;
+    color: white;
+    text-align: center;
+    margin-top: 14px;
+    width: 4vw;
+    height: 3vh;
+}
+.minus {
+    background-color: red;
+    color: white;
+    text-align: center;
+    margin-top: 14px;
+    width: 4vw;
+    height: 3vh;
+    margin-right: 0;
+}
+
+.colicina {
+    margin-left: -4vw;
+    padding-top: 14px;
+    width: 2vw;
+}
+
+.cena {
+    margin-left: -4vw;
+    padding-top: 14px;
+}
+
+.dugme {
+    margin-top: 2vh;
+}
+
+.tacka {
+    background-color: black;
+    height: 2vh;
+    width: 2vh;
+    margin-left: 88%;
+    border-radius: 50%;
+}
+
+.plus:hover {
+    cursor: pointer;
+}
+
+.minus:hover {
+    cursor: pointer;
+}
+
+.sakrij {
+    display: none;
+}
+
+.okvir textarea {
+    display: block;
+    margin-bottom: 3vh;
+    width: 90%;
+    margin-left: 2vw;
+    height: 6vh;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: auto;
+    text-indent: 7px;
+    margin-top: 5px;
+}
+
+.uspeh {
+    background-color: green;
+    margin: auto;
+    text-align: center;
+    font-size: 3vh;
+    height: 5vh;
+    margin-top: 2vh;
+    color: white;
+}
+
+.greska {
+    background-color: red;
+    margin: auto;
+    text-align: center;
+    font-size: 3vh;
+    height: 5vh;
+    margin-top: 2vh;
+    color: white;
+}
+
+@media (max-width: 900px) {
+    .ovkir button {
+        margin-top: 5vh;
+    }
+}
+
+@media (max-width: 750px) {
+    .okvir {
+        width: 80%;
+        margin: auto;
+        margin-top: 10vh;
+        background-color: gray;
+        border-radius: 8%;
+    }
+
+    .dugme button {
+        margin-left: 34%;
+        width: 28vw;
+    }
+
+    .velicine p {
+        font-size: 14px;
+    }
+
+    .velicine1 p {
+        font-size: 14px;
+    }
+
+    .cena {
+        font-size: 14px;
+    }
+
+    .colicina {
+        font-size: 14px;
+    }
+
+    .plus {
+        margin-top: 10px;
+    }
+
+    .minus {
+        margin-top: 10px;
+    }
+    
+}
