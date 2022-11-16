@@ -15,7 +15,7 @@ import { useEffect } from 'react'
 export default function Home() {
   
   return (
-    <div>
+    <>
       <Okvir>
         <Navbar />
         <Glavno>
@@ -28,6 +28,6 @@ export default function Home() {
         <Pozadina />
         <Misija />
       </Okvir> 
-    </div>
+    </>
   )
 }

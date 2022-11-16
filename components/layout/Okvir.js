@@ -1,10 +1,10 @@
 import classes from './Okvir.module.css'
-
+import { Fragment } from 'react'
 function Okvir(props) {
     return (
-        <div className={classes.okvir}>
+        <Fragment className={classes.okvir}>
             {props.children}
-        </div>
+        </Fragment>
     )
 }
 

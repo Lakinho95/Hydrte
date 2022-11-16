@@ -207,3 +207,33 @@
     }
     
 }
+
+@media (max-width: 400px) {
+    .proizvodi p {
+        font-size: 12px;
+    }
+
+    .colicina {
+        font-size: 12px;
+        margin-top: -2px;
+    }
+
+    .cena {
+        font-size: 12px;
+        margin-top: -2px;
+        margin-left: -25px;
+    }
+
+    .plus {
+        margin-top: 8px;
+    }
+
+    .minus {
+        margin-top: 8px;
+    }
+
+    .greska {
+        font-size: 20px;
+        height: 6vh;
+    }
+}

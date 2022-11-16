@@ -64,3 +64,19 @@
         font-family:Questrial, sans-serif;
     }
 }
+
+@media (max-width: 400px) {
+    .dosada {
+        height: 45vh;
+    }
+
+}
+
+
+
+@media (max-width: 300px) {
+    .dosada {
+        height: 55vh;
+    }
+
+}
