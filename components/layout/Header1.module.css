@@ -85,3 +85,21 @@
         margin-right: 14vw;
     }
 }
+
+@media (max-height: 550px) {
+    .back {
+        height: 10vh;
+    }
+}
+
+@media (max-height: 500px) {
+    .back {
+        height: 11vh;
+    }
+}
+
+@media (max-height: 450px) {
+    .back {
+        height: 12vh;
+    }
+}

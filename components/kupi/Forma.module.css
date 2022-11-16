@@ -77,17 +77,27 @@
 }
 
 .plus {
-    background-color: green;
     color: white;
     text-align: center;
+    margin: 0;
     margin-top: 14px;
     width: 4vw;
     height: 3vh;
+    padding: 0;
 }
-.minus {
+
+.plus p {
+    background-color: green;
+}
+
+.minus p {
     background-color: red;
+}
+
+.minus {
     color: white;
     text-align: center;
+    margin: 0;
     margin-top: 14px;
     width: 4vw;
     height: 3vh;
@@ -235,5 +245,53 @@
     .greska {
         font-size: 20px;
         height: 6vh;
+    }
+}
+
+@media (max-height: 550px) {
+    .okvir input {
+        height: 7vh;
+    }
+
+    .okvir textarea {
+        height: 14vh;
+    }
+
+    .okvir button {
+        height: 6vh;
+    }
+
+    .plus {
+        margin-top: 2vh;
+        height: 3vh;
+    }
+
+    .plus p {
+        margin-top: 2vh;
+    }
+
+    .minus p {
+        margin-top: 2vh;
+    }
+
+}
+
+@media (max-height: 500px) {
+    .plus p {
+        margin-top: 2.5vh;
+    }
+
+    .minus p {
+        margin-top: 2.5vh;
+    }
+}
+
+@media (max-height: 400px) {
+    .plus p {
+        margin-top: 3vh;
+    }
+
+    .minus p {
+        margin-top: 3vh;
     }
 }

@@ -145,10 +145,10 @@ export default function Form() {
             <div  className={classes.velicine1}>
                 <p>Black - L - 480ml</p>
                 <div>
-                <div className={classes.plus} onClick={handlePlusaCrno}>+</div>
+                <div className={classes.plus} onClick={handlePlusaCrno}><p>+</p></div>
                 </div>
                 <div>
-                <div className={classes.minus} onClick={handleMinusaCrno}>-</div>
+                <div className={classes.minus} onClick={handleMinusaCrno}><p>-</p></div>
                 </div>
                 <div></div>
                 <div name="black" className={classes.colicina}>{black}</div>
@@ -157,10 +157,10 @@ export default function Form() {
             <div  className={classes.velicine}>
                 <p>Baby - S - 350ml</p>
                 <div>
-                <div className={classes.plus} onClick={handlePlusaBaby}>+</div>
+                <div className={classes.plus} onClick={handlePlusaBaby}><p>+</p></div>
                 </div>
                 <div>
-                <div className={classes.minus} onClick={handleMinusaBaby}>-</div>
+                <div className={classes.minus} onClick={handleMinusaBaby}><p>-</p></div>
                 </div>
                 <div></div>
                 <div className={classes.colicina}>{babyRose}</div>
