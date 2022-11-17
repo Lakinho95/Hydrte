@@ -5,7 +5,7 @@ function Header1() {
         <div className={classes.back}>
             <div className={classes.grid}>
                 <div className={classes.kec}>
-                    <h2><a href='/'>POCETNA</a></h2>
+                    <h2><a href='/'>POČETNA</a></h2>
                 </div>
                 <div className={classes.cetvorka}>
                     <h4>HYDRTE SRBIJA</h4>
