@@ -46,7 +46,7 @@ function Pitanja() {
                 </  div>
                     }
                     </div>
-                    <p className={prva ? classes.odgovor : classes.sakrij}>Hydrate flašica je napravljena od izdržive BPA plastike. Traka je napravljen od 100% silikona. Pakovanje je takođe zasnovano na očuvanju životne sredine i može se reciklirati.</p>
+                    <p className={prva ? classes.odgovor : classes.sakrij}>Hydrte flašica je napravljena od izuzetne Tritan plastike koja je 100% bez BPA. Traka kao i pakovanje su napravljeni od materijala koji odražavaju ideju zaštite životne sredine.</p>
                 </li>
                 <li>
                     <div className={classes.grid} onClick={handleClickdruga}>
@@ -63,7 +63,7 @@ function Pitanja() {
                 </  div>
                     }
                     </div>
-                    <p className={druga ? classes.odgovor : classes.sakrij}>Hydrate flašica je napravljena od izdržive BPA plastike. Traka je napravljen od 100% silikona. Pakovanje je takođe zasnovano na očuvanju životne sredine i može se reciklirati.</p>
+                    <p className={druga ? classes.odgovor : classes.sakrij}>Da, naš kompletan proizvod je eko-friendli i može 100% da se reciklira. Dok negujete vlastito zdravlje, možete sačuvati i prirodu.</p>
                 </li>
                 <li>
                     <div className={classes.grid} onClick={handleClicktreca}>
@@ -80,7 +80,7 @@ function Pitanja() {
                 </  div>
                     }
                     </div>
-                    <p className={treca ? classes.odgovor : classes.sakrij}>Hydrate flašica je napravljena od izdržive BPA plastike. Traka je napravljen od 100% silikona. Pakovanje je takođe zasnovano na očuvanju životne sredine i može se reciklirati.</p>
+                    <p className={treca ? classes.odgovor : classes.sakrij}>Dostava je besplatna i naš proizvod možete očekivati u periodu od 1-3 radnih dana.</p>
                 </li>
                 
             </ul>

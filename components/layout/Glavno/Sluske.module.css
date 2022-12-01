@@ -1,0 +1,21 @@
+.okvir {
+    display: none;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    height: 50vh;
+}
+
+.okvir img {
+    height: 100%;
+    width: 100%;
+    background-image: url('./sluske.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+@media (max-width: 750px) {
+    .okvir {
+        display: block;
+    }
+}

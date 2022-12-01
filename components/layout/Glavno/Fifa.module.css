@@ -52,20 +52,28 @@
     cursor: pointer;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 950px) {
     .slika img {
         height: 64vh;
     }
 
 }
 
-@media (max-width: 700px) {
+@media (max-width: 850px) {
     .slika img {
-        height: 44vh;
+        height: 67vh;
+    }
+
+}
+
+@media (max-width: 750px) {
+    .slika img {
+        height: 46vh;
     }
 
     .fifa {
-        margin-top: 2vh;
+        margin-top: -1vh;
+        padding-bottom: 2vh;
         background-color: white;
         color: white;
         text-align: center;
@@ -75,6 +83,10 @@
     .text {
         border-top-right-radius: 8%;
         border-bottom-left-radius: 0%;
+    }
+
+    .text button {
+        margin-bottom: 3vh;
     }
 
     .slika img {

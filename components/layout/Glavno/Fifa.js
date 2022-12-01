@@ -7,8 +7,8 @@ function Fifa() {
         <div className={classes.fifa}>
             <div className={classes.text}>
                 <h3>REDIZAJNIRALI SMO FLAŠICU ZA VODU</h3>
-                <p>Sve naše dnevne potrebe su ravne, pa zašto to da ne budi i naše flašice za vodu. U tu misiju, krenuli smo pre dve godine i konačno uspeli da kreiramo najelegantniju, najprikladniju flašicu vode do sada!</p>
-                <button className={classes.button}><a href='/poruci'>KUPI ODMAH</a></button>
+                <p>Sve naše dnevne potrebe su ravne, pa zašto da to ne budu i naše flašice za vodu. U tu misiju, krenuli smo pre dve godine i konačno uspeli da kreiramo najelegantniju i najinovativniju flašicu za vodu!</p>
+                <button className={classes.button}><a href='/poruci'>DODAJ U KORPU</a></button>
             </div>
             <div className={classes.slika}>
                 <Image src={fifa_pic} />

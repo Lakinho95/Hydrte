@@ -51,13 +51,26 @@
     cursor: pointer;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
     .torba img {
-        height: 70vh;
+        height: 63vh;
     }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 900px) {
+    .torba img {
+        height: 67vh;
+    }
+}
+
+
+@media (max-width: 800px) {
+    .torba img {
+        height: 76vh;
+    }
+}
+
+@media (max-width: 750px) {
     .torba img {
         height: 44vh;
         border-top-left-radius: 0%;

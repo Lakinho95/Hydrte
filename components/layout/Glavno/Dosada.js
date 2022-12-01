@@ -7,7 +7,7 @@ function Dosada() {
             <div className={classes.skrati}>
             <h4>Nakon godinu dana uspešnog poslovanja u zemljama širom sveta, odlučili smo da otpočnemo poslovanje i u našoj zemlji.</h4>
             </div>
-            <button><a href='/poruci'>KUPI ODMAH</a></button>
+            <button><a href='/poruci'>DODAJ U KORPU</a></button>
         </div>
     )
 }

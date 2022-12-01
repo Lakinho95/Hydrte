@@ -8,12 +8,28 @@
 }
 
 .velicina img {
+    height: 100%;
     object-fit: cover;
     width: 100%;
-    height: 61vh;
     border-top-right-radius: 8%;
     border-bottom-right-radius: 8%;
 }
+
+.slike {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.slike img:first-of-type {
+    border-bottom-right-radius: 0px;
+}
+
+.slike img:nth-of-type(2) {
+    border-top-right-radius: 0px;
+}
+
+
 
 .text {
     padding: 5px 4vw;
@@ -33,10 +49,11 @@
     padding-top: 1vh;
     font-size: 33px;
     padding-bottom: 1rem;
+    margin-top: 2vh;
 }
 
 .velicina button {
-    margin-top: 1vh;
+    margin-top: 8vh;
     border-radius: 20px;
     font-size: 20px;
     background-color: white;
@@ -62,21 +79,25 @@
     font-size: 20px;
 }
 
-@media (max-width: 950px) {
+@media (max-width: 1000px) {
     .velicina img {
-        height: 66vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .slike {
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 }
 
-@media (max-width: 850px) {
-    .velicina img {
-        height: 76vh;
-    }
-}
 
-@media (max-width: 850px) {
+
+@media (max-width: 1000px) {
     .velicina {
         display: block;
+        margin-bottom: -45vh;
     }
 
     .velicina img {
@@ -88,4 +109,15 @@
         border-bottom-left-radius: 0%;
         border-top-right-radius: 8%;
     }
+
+    .velicina button {
+        margin-top: -3vh;
+        margin-bottom: 3vh;
+    }
+
+    .slike img:nth-of-type(2) {
+        border-bottom-left-radius: 0px;
+    }
+
+
 }

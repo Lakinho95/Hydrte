@@ -14,13 +14,10 @@ function Box() {
             <div className={classes.dvojka}></div>
             <div className={classes.cetvorka}>
                 <div className={classes.instagram}>
-                    <Instagram />
+                    <a href="https://www.instagram.com/hydrte.rs/?hl=en"><Instagram /></a>
                 </div>
                 <div className={classes.tictoc}>
-                    <Tictoc />
-                </div>
-                <div className={classes.facebook}>
-                    <Facebook />
+                    <a href='https://www.tiktok.com/@hydrte.rs?lang=en'><Tictoc /></a>
                 </div>
             </div>
             <div className={classes.trojka}>
