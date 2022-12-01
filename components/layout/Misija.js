@@ -6,7 +6,7 @@ function Misija() {
         <div className={classes.pozadina}>
             <div className={classes.container}>
                 <h4>HYDRTE misija</h4>
-                <p>Naša misija je da osiguramo svetu elegantne, višekratne boce za vodu. Budite deo našeg inovativnog sveta. Budite drugačiji, budite HYDRTE.</p>
+                <p>Naša misija je da obezbedimo svetu elegantne, višekratne boce za vodu. Budite deo našeg inovativnog sveta. Budite drugačiji, budite HYDRTE.</p>
             </div>
         </div>
     )
