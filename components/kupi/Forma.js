@@ -7,6 +7,7 @@ export default function Form() {
     const [formObject,setForm] = React.useState({
         firstName:'',
         lastName:'',
+        adresa:'',
         email:'',
         phone:''
     })
@@ -80,6 +81,7 @@ export default function Form() {
                         ...prevState,
                         firstName:"",
                         lastName:"",
+                        adresa:"",
                         email:"",
                         phone:"",
                     }
@@ -131,6 +133,15 @@ export default function Form() {
                 onChange={handleChange}
                 name='phone'
                 value={formObject.phone}
+            />
+            <label>Unesi svoju adresu</label>
+            <input
+                type="text"
+                required
+                placeholder='Adresa'
+                onChange={handleChange}
+                name='adresa'
+                value={formObject.adresa}
             />
             <label>Unesi svoj email</label>
             <input

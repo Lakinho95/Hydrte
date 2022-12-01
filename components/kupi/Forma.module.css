@@ -42,7 +42,7 @@
     font-size: 20px;
     padding: auto;
     text-indent: 7px;
-    margin-top: 5px;
+    margin-top: 4px;
 }
 
 .inline-display {
@@ -266,36 +266,46 @@
     }
 
     .plus {
-        margin-top: 2vh;
+        margin-top: 2.5vh;
         height: 3vh;
     }
 
     .plus p {
-        margin-top: 2vh;
+        margin-top: 2.4vh;
     }
 
     .minus p {
-        margin-top: 2vh;
+        margin-top: 2.5vh;
     }
 
 }
 
 @media (max-height: 500px) {
     .plus p {
-        margin-top: 2.5vh;
+        margin-top: 2.8vh;
     }
 
     .minus p {
-        margin-top: 2.5vh;
+        margin-top: 2.8vh;
+    }
+}
+
+@media (max-height: 450px) {
+    .plus p {
+        margin-top: 3.2vh;
+    }
+
+    .minus p {
+        margin-top: 3.2vh;
     }
 }
 
 @media (max-height: 400px) {
     .plus p {
-        margin-top: 3vh;
+        margin-top: 3.5vh;
     }
 
     .minus p {
-        margin-top: 3vh;
+        margin-top: 3.5vh;
     }
 }
