@@ -2,7 +2,7 @@
     font-size: 18px;
     background-color: gray;
     display: grid;
-    grid-template-columns: 8fr 5fr 1fr 2fr;
+    grid-template-columns: 6fr 3fr 1fr 2fr;
 }
 
 .kec {
@@ -50,6 +50,7 @@
     color: white;
     font-weight: 600;
     text-decoration: underline;
+    color:black;
 }
 
 .cetvorka {
@@ -88,7 +89,7 @@
 @media (max-width: 900px) {
     .box {
         display: grid;
-        grid-template-columns: 10fr 1fr 1fr 4fr;
+        grid-template-columns: 8fr 1fr 2fr 4fr;
     }
 
     .kec {

@@ -1,7 +1,7 @@
 .slika {
     margin-bottom: 0;
     height: 130vh;
-    background-image: url('pozadina.webp');
+    background-image: url('pozadina.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -14,6 +14,13 @@
 
 .holder1 {
     height: 60vh;
+}
+
+.ikonica {
+    background-color: black;
+    margin: auto;
+    width: 15%;
+    border-radius: 15px;
 }
 
 .slika img {
@@ -115,8 +122,13 @@
         display: none;
     }
     .okvir1 {
+        margin-top: 10vh;
         display: block;
         margin-bottom: 2vh;
+    }
+
+    .ikonica {
+        margin-top: 4vh;
     }
 }
 

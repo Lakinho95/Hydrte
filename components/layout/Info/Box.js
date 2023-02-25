@@ -2,7 +2,7 @@ import classes from './Box.module.css'
 import Facebook from '../icons/facebook'
 import Instagram from '../icons/instagram'
 import Tictoc from '../icons/tictoc'
-
+import Globe from '../icons/proba'
 
 function Box() {
     return (
@@ -14,6 +14,9 @@ function Box() {
             <div className={classes.dvojka}></div>
             <div className={classes.cetvorka}>
                 <div className={classes.instagram}>
+                    <a href="https://www.instagram.com/hydrte.rs/?hl=en"><Facebook /></a>
+                </div>
+                <div className={classes.instagram}>
                     <a href="https://www.instagram.com/hydrte.rs/?hl=en"><Instagram /></a>
                 </div>
                 <div className={classes.tictoc}>
@@ -21,7 +24,7 @@ function Box() {
                 </div>
             </div>
             <div className={classes.trojka}>
-                <a href='/pitanje'>POSTAVI PITANJE</a>
+                <a href='/pitanje'>POSTAVITE PITANJE</a>
             </div>
         </div>
     )

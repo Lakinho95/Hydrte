@@ -22,25 +22,25 @@ export default function Form() {
 
     function handlePlusaCrno() {
         changeBlack(prevState => prevState + 1)
-        changeBlackCena(prevState => prevState + 1400)
+        changeBlackCena(prevState => prevState + 2500)
     }
 
     function handleMinusaCrno() {
         if (black > 0) {
             changeBlack(prevState => prevState - 1)
-            changeBlackCena(prevState => prevState - 1400)
+            changeBlackCena(prevState => prevState - 2500)
         }
     }
 
     function handlePlusaBaby() {
         changeBabyRose(prevState => prevState + 1)
-        changeRoseCena(prevState => prevState + 900)
+        changeRoseCena(prevState => prevState + 2300)
     }
 
     function handleMinusaBaby() {
         if (babyRose > 0) {
             changeBabyRose(prevState => prevState - 1)
-            changeRoseCena(prevState => prevState - 900)
+            changeRoseCena(prevState => prevState - 2300)
         }
     }
 
@@ -185,7 +185,7 @@ export default function Form() {
                 error && <div className={classes.greska}><p>Minimum 1 artikal je potrebno dodati u korpu</p></div>
             }
             <div className={classes.dugme}>
-                <button>PORUCI</button>
+                <button>PORUČI</button>
             </div>
             <div className={classes.sakrij}>
             <input  name="babyRose" type="number" value={babyRose} />

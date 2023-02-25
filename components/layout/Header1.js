@@ -10,10 +10,9 @@ function Header1() {
                 <div className={classes.cetvorka}>
                     <h4>HYDRTE SRBIJA</h4>
                 </div>
-                <div className={classes.dvojka}>
-                    <h2><a href='/poruci'>KORPA</a></h2>
-            </div>
-            </div>
+                    <div>
+                    </div>
+                </div>
         </div>
     )
 }

@@ -1,6 +1,8 @@
 import classes from './Pozadina.module.css'
 import slika from './pozadina.webp'
 import Image from 'next/image'
+import Globe from './icons/proba'
+
 
 
 function Pozadina() {
@@ -12,13 +14,17 @@ function Pozadina() {
              <div className={classes.okvir}>
                 <h2>SPREMAN DA PORUČIŠ SVOJU FLAŠICU</h2>
                 <p>Klikni na link i otpočni sa porudžbinom</p>
-                <button><a href="/poruci">KORPA</a></button>
+                <div className={classes.ikonica}>
+                    <a href='/poruci'><Globe /></a>
+                </div>
              </div>
         </div>
         <div className={classes.okvir1}>
                 <h2>SPREMAN DA PORUČIŠ SVOJU FLAŠICU</h2>
                 <p>Klikni na link i otpočni sa porudžbinom</p>
-                <button><a href="/poruci">KORPA</a></button>
+                <div className={classes.ikonica}>
+                    <a href='/poruci'><Globe /></a>
+                </div>
         </div>
         </div>
     )

@@ -46,12 +46,14 @@ function Pitanja() {
                 </  div>
                     }
                     </div>
+                    <div class={classes.poravnanje}>
                     <p className={prva ? classes.odgovor : classes.sakrij}>Hydrte flašica je napravljena od izuzetne Tritan plastike koja je 100% bez BPA. Traka kao i pakovanje su napravljeni od materijala koji odražavaju ideju zaštite životne sredine.</p>
+                    </div>
                 </li>
                 <li>
                     <div className={classes.grid} onClick={handleClickdruga}>
                     <div >
-                    <p className={classes.text}>Da li je naša flašica eco- friendly?</p>
+                    <p className={classes.text}>Da li je naša flašica eco - frendli?</p>
                     </div>
                     { druga ?
                     <div className={classes.dole}>
@@ -63,7 +65,9 @@ function Pitanja() {
                 </  div>
                     }
                     </div>
+                    <div class={classes.poravnanje}>
                     <p className={druga ? classes.odgovor : classes.sakrij}>Da, naš kompletan proizvod je eko-friendli i može 100% da se reciklira. Dok negujete vlastito zdravlje, možete sačuvati i prirodu.</p>
+                    </div>
                 </li>
                 <li>
                     <div className={classes.grid} onClick={handleClicktreca}>
@@ -80,7 +84,9 @@ function Pitanja() {
                 </  div>
                     }
                     </div>
-                    <p className={treca ? classes.odgovor : classes.sakrij}>Dostava je besplatna i naš proizvod možete očekivati u periodu od 1-3 radnih dana.</p>
+                    <div class={classes.poravnanje}>
+                    <p className={treca ? classes.odgovor : classes.sakrij}>Naš proizvod možete očekivati u periodu od 1-3 radnih dana.</p>
+                    </div>
                 </li>
                 
             </ul>
