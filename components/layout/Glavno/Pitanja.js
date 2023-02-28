@@ -66,7 +66,7 @@ function Pitanja() {
                     }
                     </div>
                     <div class={classes.poravnanje}>
-                    <p className={druga ? classes.odgovor : classes.sakrij}>Da, naš kompletan proizvod je eko-friendli i može 100% da se reciklira. Dok negujete vlastito zdravlje, možete sačuvati i prirodu.</p>
+                    <p className={druga ? classes.odgovor : classes.sakrij}>Da, naš kompletan proizvod je eko-frendli i može 100% da se reciklira. Dok negujete vlastito zdravlje, možete sačuvati i prirodu.</p>
                     </div>
                 </li>
                 <li>

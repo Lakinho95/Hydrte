@@ -1,8 +1,8 @@
 import classes from './Velicine.module.css'
 import slika from './velicine.webp'
 import Image from 'next/image'
-import roza from './roza.png'
-import crna from './crna.png'
+import roza from './roza.jpg'
+import crna from './crna.jpg'
 
 
 function Velicine() {

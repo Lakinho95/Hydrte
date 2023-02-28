@@ -1,8 +1,18 @@
+.okvir input {
+    font-family: serif;
+}
+
+.okvir textarea {
+    font-family: serif;
+}
+
+
 .okvir {
     width: 45%;
     margin: auto;
     margin-top: 10vh;
     background-color: gray;
+    font-family: serif;
 }
 
 .okvir form {
