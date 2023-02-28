@@ -14,7 +14,7 @@ function Box() {
             <div className={classes.dvojka}></div>
             <div className={classes.cetvorka}>
                 <div className={classes.instagram}>
-                    <a href="https://www.instagram.com/hydrte.rs/?hl=en"><Facebook /></a>
+                    <a href="https://www.facebook.com/people/Hydrte-RS/pfbid037tbbzbsUXkJAaU9sfYp6vfbCX32LBqS6DPMzdYG9iz7tQuMkuYGornxnX7i8XTLFl/"><Facebook /></a>
                 </div>
                 <div className={classes.instagram}>
                     <a href="https://www.instagram.com/hydrte.rs/?hl=en"><Instagram /></a>
