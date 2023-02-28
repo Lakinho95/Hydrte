@@ -19,9 +19,6 @@ function Box() {
                 <div className={classes.instagram}>
                     <a href="https://www.instagram.com/hydrte.rs/?hl=en"><Instagram /></a>
                 </div>
-                <div className={classes.tictoc}>
-                    <a href='https://www.tiktok.com/@hydrte.rs?lang=en'><Tictoc /></a>
-                </div>
             </div>
             <div className={classes.trojka}>
                 <a href='/pitanje'>POSTAVITE PITANJE</a>

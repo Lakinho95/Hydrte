@@ -1,10 +1,10 @@
 .slika {
     margin-bottom: 0;
-    height: 130vh;
+    height: 110vh;
     background-image: url('nova.jpg');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size:contain;
 }
 
 .holder {
@@ -31,21 +31,22 @@
 }
 
 .okvir {
-    width: 40%;
+    width: 25%;
     border-radius: 10px;
     background-color: white;
     margin: auto;
     z-index: 200;
     text-align: center;
     padding-bottom: 20vh;
-    height: 22vh;
+    height: 6vh;
+    margin-top: -15vh;
 }
 
 .okvir h2 {
     padding-top: 2vh;
     font-family: Questrial, sans-serif;
     color: gray;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .okvir p {
