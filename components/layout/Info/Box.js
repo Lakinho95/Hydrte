@@ -9,7 +9,7 @@ function Box() {
         <div className={classes.box}>
             <div className={classes.kec}>
             <p>e-mail: hydrtesrbija@gmail.com</p>
-            <p>kontakt: +381 64 9029 909</p>
+            <p>Telefon: +381 64 9029 909</p>
             </div>
             <div className={classes.dvojka}></div>
             <div className={classes.cetvorka}>
