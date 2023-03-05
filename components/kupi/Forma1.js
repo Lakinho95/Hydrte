@@ -105,10 +105,10 @@ export default function Form() {
             />
             <label>Poruka</label>
             <textarea 
-                placeholder="Poruka"
+                placeholder="unesite tekst"
                 required
                 onChange={handleChange}
-                name='unesite tekst'
+                name='komentar'
                 value={formObject.komentar}
                 rows={5}
             />
