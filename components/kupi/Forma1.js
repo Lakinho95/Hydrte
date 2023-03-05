@@ -85,16 +85,16 @@ export default function Form() {
         <div className={classes.okvir}>
         <form ref={form} onSubmit={handleSubmit}>
             <div className={classes.tacka}></div>
-            <label>Unesi svoje ime</label>
+            <label>Ime i prezime</label>
             <input
                 type="text"
                 required
-                placeholder='Ime'
+                placeholder='Ime i prezime'
                 onChange={handleChange}
                 name='firstName'
                 value={formObject.firstName}
             />
-            <label>Unesi svoj email</label>
+            <label>Email</label>
             <input
                 type="email"
                 required
@@ -105,10 +105,10 @@ export default function Form() {
             />
             <label>Dodaj komentar</label>
             <textarea 
-                placeholder="Komentar"
+                placeholder="Poruka"
                 required
                 onChange={handleChange}
-                name='komentar'
+                name='unesite tekst'
                 value={formObject.komentar}
                 rows={5}
             />
