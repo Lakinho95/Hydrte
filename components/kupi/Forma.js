@@ -140,7 +140,7 @@ export default function Form() {
         <div className={classes.okvir}>
         <form ref={form} onSubmit={handleSubmit}>
             <div className={classes.tacka}></div>
-            <label>Unesi svoje ime i prezime</label>
+            <label>Ime i prezime</label>
             <input
                 style={{display: 'none'}}
                 type="number"
@@ -164,7 +164,7 @@ export default function Form() {
                 name='lastName'
                 value={formObject.lastName}
             />
-            <label>Unesi svoj kontakt telefon</label>
+            <label>Kontakt telefon</label>
             <input
                 type="number"
                 required
@@ -173,7 +173,7 @@ export default function Form() {
                 name='phone'
                 value={formObject.phone}
             />
-            <label>Unesi svoju adresu - ulica i broj</label>
+            <label>Adresa - ulica i broj</label>
             <input
                 type="text"
                 required
@@ -182,7 +182,7 @@ export default function Form() {
                 name='adresa'
                 value={formObject.adresa}
             />
-            <label>Unesi grad i poštanski broj</label>
+            <label>Grad i poštanski broj</label>
             <input
                 type="text"
                 required
@@ -191,7 +191,7 @@ export default function Form() {
                 name='grad'
                 value={formObject.grad}
             />
-            <label>Unesi svoj kontakt email</label>
+            <label>Kontakt email</label>
             <input
                 type="email"
                 required
