@@ -177,7 +177,7 @@ export default function Form() {
             <input
                 type="text"
                 required
-                placeholder='Adresa'
+                placeholder='Adresa i broj'
                 onChange={handleChange}
                 name='adresa'
                 value={formObject.adresa}
@@ -186,7 +186,7 @@ export default function Form() {
             <input
                 type="text"
                 required
-                placeholder='Grad'
+                placeholder='Grad i poštanski broj'
                 onChange={handleChange}
                 name='grad'
                 value={formObject.grad}
