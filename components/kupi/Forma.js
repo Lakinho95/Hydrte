@@ -140,7 +140,7 @@ export default function Form() {
         <div className={classes.okvir}>
         <form ref={form} onSubmit={handleSubmit}>
             <div className={classes.tacka}></div>
-            <label>Unesi svoje ime</label>
+            <label>Unesi svoje ime i prezime</label>
             <input
                 style={{display: 'none'}}
                 type="number"
@@ -150,15 +150,15 @@ export default function Form() {
             <input
                 type="text"
                 required
-                placeholder='Ime'
+                placeholder='Ime i prezime'
                 onChange={handleChange}
                 name='firstName'
                 value={formObject.firstName}
             />
-            <label>Unesi svoje prezime</label>
+            {/* <label>Unesi svoje prezime</label> */}
             <input
+                style={{display: 'none'}}
                 type="text"
-                required
                 placeholder='Prezime'
                 onChange={handleChange}
                 name='lastName'
