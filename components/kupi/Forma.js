@@ -6,7 +6,7 @@ import react from 'react';
 export default function Form() {
     const form = useRef()
     const [formObject,setForm] = React.useState({
-        porudzbina:0,
+        porudzbina:1,
         firstName:'',
         lastName:'',
         adresa:'',
