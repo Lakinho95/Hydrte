@@ -103,7 +103,7 @@ export default function Form() {
                 name='email'
                 value={formObject.email}
             />
-            <label>Dodaj komentar</label>
+            <label>Poruka</label>
             <textarea 
                 placeholder="Poruka"
                 required
