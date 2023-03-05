@@ -1,19 +1,22 @@
 import React, { useRef } from 'react'
 import classes from './Forma.module.css'
 import emailjs from '@emailjs/browser';
+import react from 'react';
 
 export default function Form() {
     const form = useRef()
     const [formObject,setForm] = React.useState({
+        porudzbina:1,
         firstName:'',
         lastName:'',
         adresa:'',
         email:'',
-        phone:''
+        phone:'',
+        grad: '',
     })
     const [uspehSlanje,changeUspehSlanje] = React.useState(false)
     const [error, changeError] = React.useState(false)
-
+    
     const [babyRose, changeBabyRose] = React.useState(0)
     const [black, changeBlack] = React.useState(0)
     const [roseCena,changeRoseCena] = React.useState(0)
@@ -32,6 +35,12 @@ export default function Form() {
         }
     }
 
+    function handleBroj(e) {
+        promeniPorudzbinu(prevState => prevState + 1)
+    }
+
+    
+
     function handlePlusaBaby() {
         changeBabyRose(prevState => prevState + 1)
         changeRoseCena(prevState => prevState + 2300)
@@ -46,18 +55,35 @@ export default function Form() {
 
     function handleChange(e) {
         const {name, value, checked,type} = e.target
+        console.log(formObject.porudzbina)
         setForm(prevState => {
             return {
                 ...prevState,
-                [name]:type === "checkbox"? checked:value
+                [name]:type === "checkbox"? checked:value,
             }
         })
     }
 
+    function promeniBroj() {
+        console.log(formObject.porudzbina)
+        const stariBroj = formObject.porudzbina + 1
+        setForm(prevState => {
+            return {
+                ...prevState,
+                'porudzbina': stariBroj
+            }
+        })
+        console.log(formObject.porudzbina)
+    }
+
+
+    
+
     function handleSubmit(e) {
         //http://localhost:3000/?firstName=Lazar&lastName=Kanazir&email=lazarkanazir995%40gmail.com&comment=Nista+bitno&isFriendly=on&workStatus=Full-time&pet=hamster
         e.preventDefault()
-
+        promeniBroj()
+        console.log(formObject.porudzbina)
         console.log(formObject,babyRose,black,roseCena,blackCena)
 
         if (black > 0 || babyRose > 0) {
@@ -84,6 +110,7 @@ export default function Form() {
                         adresa:"",
                         email:"",
                         phone:"",
+                        grad:"",
                     }
                 }) 
                 changeUspehSlanje(false)
@@ -97,8 +124,14 @@ export default function Form() {
                 changeError(false)
             }, 3000);
         }
-
-        
+        console.log(formObject.porudzbina)
+        console.log(formObject.email)
+        emailjs.sendForm('service_s4102c3', 'template_95eoxsn', form.current, 'xsOZdHXux8zfUoh0I')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
 
         
     }
@@ -108,6 +141,12 @@ export default function Form() {
         <form ref={form} onSubmit={handleSubmit}>
             <div className={classes.tacka}></div>
             <label>Unesi svoje ime</label>
+            <input
+                style={{display: 'none'}}
+                type="number"
+                value={formObject.porudzbina}
+                name="porudzbina"
+            />
             <input
                 type="text"
                 required
@@ -125,7 +164,7 @@ export default function Form() {
                 name='lastName'
                 value={formObject.lastName}
             />
-            <label>Unesi svoj broj telefona</label>
+            <label>Unesi svoj kontakt telefon</label>
             <input
                 type="number"
                 required
@@ -134,7 +173,7 @@ export default function Form() {
                 name='phone'
                 value={formObject.phone}
             />
-            <label>Unesi svoju adresu</label>
+            <label>Unesi svoju adresu - ulica i broj</label>
             <input
                 type="text"
                 required
@@ -143,7 +182,16 @@ export default function Form() {
                 name='adresa'
                 value={formObject.adresa}
             />
-            <label>Unesi svoj email</label>
+            <label>Unesi grad i poštanski broj</label>
+            <input
+                type="text"
+                required
+                placeholder='Grad'
+                onChange={handleChange}
+                name='grad'
+                value={formObject.grad}
+            />
+            <label>Unesi svoj kontakt email</label>
             <input
                 type="email"
                 required
