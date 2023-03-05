@@ -164,7 +164,7 @@ export default function Form() {
                 name='lastName'
                 value={formObject.lastName}
             />
-            <label>Kontakt telefon</label>
+            <label>Kontakt</label>
             <input
                 type="number"
                 required
@@ -173,7 +173,7 @@ export default function Form() {
                 name='phone'
                 value={formObject.phone}
             />
-            <label>Adresa - ulica i broj</label>
+            <label>Ulica i broj</label>
             <input
                 type="text"
                 required
@@ -191,7 +191,7 @@ export default function Form() {
                 name='grad'
                 value={formObject.grad}
             />
-            <label>Kontakt email</label>
+            <label>Email</label>
             <input
                 type="email"
                 required
