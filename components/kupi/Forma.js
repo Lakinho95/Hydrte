@@ -25,13 +25,13 @@ export default function Form() {
 
     function handlePlusaCrno() {
         changeBlack(prevState => prevState + 1)
-        changeBlackCena(prevState => prevState + 2500)
+        changeBlackCena(prevState => prevState + 1750)
     }
 
     function handleMinusaCrno() {
         if (black > 0) {
             changeBlack(prevState => prevState - 1)
-            changeBlackCena(prevState => prevState - 2500)
+            changeBlackCena(prevState => prevState - 1750)
         }
     }
 
@@ -43,13 +43,13 @@ export default function Form() {
 
     function handlePlusaBaby() {
         changeBabyRose(prevState => prevState + 1)
-        changeRoseCena(prevState => prevState + 2300)
+        changeRoseCena(prevState => prevState + 1750)
     }
 
     function handleMinusaBaby() {
         if (babyRose > 0) {
             changeBabyRose(prevState => prevState - 1)
-            changeRoseCena(prevState => prevState - 2300)
+            changeRoseCena(prevState => prevState - 1750)
         }
     }
 
